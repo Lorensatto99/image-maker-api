@@ -15,23 +15,25 @@ Objeto para requisição:
 }
 ```
 
-- [x] 1 EndPoint;
-- [x] Ter uma pasta com várias imagens em branco (template). Escolher uma das imagens de forma aleatória para adicionar o conteúdo;
-- [x] Se for hospedar esses template outro que não seja no servidor. Podemos deixar hardcoded as urls;
-- [x] Hospedar imagem gerada Upload para S3 via SDK;
-- [x] URL da nova imagem;
-
 Recursos:
 
-- Manipulação de imagens no nodejs;
-- AWS Lambda (serverless framework);
+- canvas;
 - Express JS (heroku);
+- dotenv (variáveis de ambiente)
 
-ToDoList:
+O que ele faz ?
 
-- [x] Ajustar para que ele receba um método post com credênciais para executar o processo de tratamento da imagem;
-- [x] configurar busca por templates de cupom;
-- [x] ajustar canvas para o cupom;
-- [x] redirecionar imagem tratada para o S3 via SDK;
-- [x] retornar requisição com o 'response' contendo o link da imagem gerada;
-- [ ] refatorar estrutura de código para manutenções futuras;
+Por uma requisição POST, o objeto acima é recebido, e baseado nas variáveis ele é tratado em uma imagem de um cupom de desconto, que será mandado para os usuários cadastrados.
+
+POST https://....herokuapp.com/coupons/create-image/
+
+### Request
+![request](img/img2.png)
+
+### Response:
+![response](img/img3.png)
+
+<br/>
+
+### Result:
+![template](img/img.png)
