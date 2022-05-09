@@ -1,0 +1,57 @@
+{
+    "template": {
+        "width": 2000,
+        "height": 2000
+    },
+    "couponContent": {
+        "couponDescription": {
+            "width": 1000,
+            "height1": 650,
+            "height2": 570,
+            "height3": 520,
+            "wordWrap": {
+                "lines2": [
+                    45,
+                    99
+                ],
+                "lines3": [
+                    100,
+                    145
+                ]
+            },
+            "size1": "90px",
+            "size2": "80px",
+            "size3": "70px",
+            "font": "franklin-gothic-medium",
+            "color": "white",
+            "maxWidth": 1600
+        },
+        "offValue": {
+            "width": 1000,
+            "height": 1020,
+            "size": "350px",
+            "font": "BebasNeue",
+            "color": "white"
+        },
+        "offSellerDescription": {
+            "width": 1000,
+            "height": 1240,
+            "size": "45px",
+            "font": "WorkSans",
+            "color": "white",
+            "content": "CUPOM DE DESCONTO"
+        },
+        "code": {
+            "width": 1000,
+            "widthLimit": 1100,
+            "height": 1375,
+            "size": "140px",
+            "font": "impact",
+            "color": "#EC323C"
+        }
+    },
+    "logo": {
+        "logoWidth": 1000,
+        "logoHeight": 1500
+    }
+}
